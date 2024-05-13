@@ -131,9 +131,9 @@ function clearForm() {
 
   resetCharts();
 
-  const errorInputsContainers = document.querySelectorAll(".error");
+  const errorInputContainers = document.querySelectorAll(".error");
 
-  for (const errorInputContainer of errorInputsContainers) {
+  for (const errorInputContainer of errorInputContainers) {
     errorInputContainer.classList.remove("error");
     errorInputContainer.parentElement.querySelector("p").remove();
   }
